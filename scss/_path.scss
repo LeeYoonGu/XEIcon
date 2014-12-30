@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: 'xeicon';
-  src: url('#{$fa-font-path}/xeicon.eot?v=#{$fa-version}');
-  src: url('#{$fa-font-path}/xeicon.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
-    url('#{$fa-font-path}/xeicon.woff?v=#{$fa-version}') format('woff'),
-    url('#{$fa-font-path}/xeicon.ttf?v=#{$fa-version}') format('truetype'),
-    url('#{$fa-font-path}/xeicon.svg?v=#{$fa-version}#xeiconregular') format('svg');
+  src: url('#{$xe-font-path}/xeicon.eot?v=#{$xe-version}');
+  src: url('#{$xe-font-path}/xeicon.eot?#iefix&v=#{$xe-version}') format('embedded-opentype'),
+    url('#{$xe-font-path}/xeicon.woff?v=#{$xe-version}') format('woff'),
+    url('#{$xe-font-path}/xeicon.ttf?v=#{$xe-version}') format('truetype'),
+    url('#{$xe-font-path}/xeicon.svg?v=#{$xe-version}#xeiconregular') format('svg');
     font-weight: normal;
   font-style: normal;
 }
