@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
 /* FONT PATH
  * -------------------------- */
 @font-face {
@@ -11,7 +7,7 @@
   src: url("../fonts/xeicon.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/xeicon.woff?v=4.2.0") format("woff"), url("../fonts/xeicon.ttf?v=4.2.0") format("truetype"), url("../fonts/xeicon.svg?v=4.2.0#xeiconregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-.xe {
+i {
   display: inline-block;
   font: normal normal normal 14px/1 xeicon;
   font-size: inherit;
@@ -20,7 +16,7 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* makes the font 33% larger relative to the icon container */
-.xe-lg {
+.xe-x {
   font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -15%; }
@@ -37,8 +33,6 @@
 .xe-5x {
   font-size: 5em; }
 
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
 .xe-plus:before {
   content: ""; }
 
