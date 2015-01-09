@@ -3,8 +3,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'xeicon';
-  src: url("../fonts/xeicon.eot?v=4.2.0");
-  src: url("../fonts/xeicon.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/xeicon.woff?v=4.2.0") format("woff"), url("../fonts/xeicon.ttf?v=4.2.0") format("truetype"), url("../fonts/xeicon.svg?v=4.2.0#xeiconregular") format("svg");
+  src: url("../fonts/xeicon.eot?v=1.0.3");
+  src: url("../fonts/xeicon.eot?#iefix&v=1.0.3") format("embedded-opentype"), url("../fonts/xeicon.woff?v=1.0.3") format("woff"), url("../fonts/xeicon.ttf?v=1.0.3") format("truetype"), url("../fonts/xeicon.svg?v=1.0.3#xeiconregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 i {
@@ -1950,14 +1950,11 @@ i {
   border-radius: .1em; }
 
 .pull-right {
-  float: right; }
+  float: right;
+  margin-right: .3em; }
 
 .pull-left {
-  float: left; }
-
-.xe.pull-left {
+  float: left;
   margin-right: .3em; }
-.xe.pull-right {
-  margin-left: .3em; }
 
 /*# sourceMappingURL=style.css.map */
